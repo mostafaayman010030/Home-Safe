@@ -273,27 +273,30 @@ body {
 /* Start Css of The Services Section */
 
 .serv {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .serv .item {
-    margin-bottom: 20px
+    margin-bottom: 10px
 }
 
 .serv .item img {
     width: 100%;
-    padding: 80px;
+    padding: 100px;
 }
 
+/*
 .serv .item h4 {
     font-weight: bold;
     font-size: 20px;
     padding-top: 10px
 }
+*/
 
 .serv .item .lead {
 /*    font-weight: 300*/
+/*
         font-family: "Varela Round",Arial,"Helvetica Neue",Helvetica,serif;
 font-weight: 400;
 line-height: 1.5;
@@ -302,6 +305,7 @@ box-sizing: border-box;
 margin: 0 0 1em 0;
 direction: inherit;
 color: #757575;
+*/
 /*font-size: 16px;*/
 }
 
@@ -937,7 +941,7 @@ font-weight: bolder;
 }
 
 .social-iconssx li {
-    display: block;
+    display: inline-block;
     margin-left: 6px;
     margin-bottom: 10px
 }
