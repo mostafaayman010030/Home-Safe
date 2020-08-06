@@ -859,7 +859,29 @@ font-weight: bolder;
 
 /* End Css of Footer Section */
 
+.xbbb
+{
+    
+}
 
+.bbb
+{
+    font-family: "Varela Round",Arial,"Helvetica Neue",Helvetica,serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5;
+text-align: right;
+direction: inherit;
+box-sizing: border-box;
+text-decoration: none;
+color: #2f2c2c;
+transition: all 0.15s linear;
+display: table-cell;
+position: relative;
+z-index: 1;
+padding: 10px;
+background-color: #4cc2c0;
+}
 
 .social-iconss li a {
     width: 70px;
@@ -1362,5 +1384,143 @@ footer {
     background: #E44424;
     color: #FFF
 }
+
+
+
+
+/*Start contact */
+
+
+.contact-heading {
+    margin-bottom: 30px;
+}
+
+.contact-info-content ul li:last-child {
+    border-bottom: none;
+}
+
+.contact-info-content ul li {
+    overflow: hidden;
+    padding: 36px 15px;
+    border-bottom: 1px dotted #e0e0e0;
+    position: relative;
+}
+
+.contact-heading h3 {
+    font-size: 32px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 0;
+    color: #353747;
+    position: relative;
+}
+
+.contact-info-comment:hover .contact-heading h3:after {
+    width: 230px;
+}
+
+.contact-info-comment:hover .contact-heading.style-two h3:after {
+    width: 295px;
+}
+
+.contact-heading h3:after {
+    content: "";
+    position: absolute;
+    top: 129%;
+    left: 3px;
+    width: 100px;
+    height: 5px;
+    background: #5488f9;
+    transition: all .80s ease-in-out;
+}
+
+.contact-info-left {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+}
+
+.contact-info-left i {
+    width: 52px;
+    height: 52px;
+    line-height: 52px;
+    text-align: center;
+    background: #353747;
+    font-size: 25px;
+    color: #fff;
+    border-radius: 100%;
+    display: inline-block;
+}
+
+.contact-info-right {
+    margin-left: 65px;
+}
+
+.contact-info-right p {
+    color: #353747;
+    margin: 0;
+}
+
+.comment-info-content input,
+.comment-info-content textarea {
+    outline: none;
+    background: #f0f1f2;
+    padding: 13px 14px 13px 25px;
+    border-radius: 32px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+}
+
+.comment-name-email input:focus {
+    border: 1px solid #f0f1f2;
+}
+
+.contact .comment-name {
+    width: 49%;
+    float: left;
+}
+
+.contact .comment-email {
+    width: 49%;
+    float: right;
+}
+
+.comment-text-area textarea:focus {
+    border: 1px solid #f0f1f2;
+    background: #fff;
+}
+
+.comment-text-area textarea {
+    border-radius: 16px;
+    min-height: 138px;
+    border: 1px solid transparent;
+}
+
+.comment-input::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #aaadb3;
+}
+
+.comment-say::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #aaadb3;
+}
+
+.submit-btn .custom-btn {
+    border-radius: 32px;
+    display: block;
+    text-align: center;
+    color: #fff;
+    box-shadow: inset 6px 5px 27px 22px #5488f9, inset 1px 0px 0px 0px #5488f9;
+    padding: 10px 0;
+}
+
+.submit-btn .custom-btn:hover {
+    color: #fff;
+    box-shadow: inset 6px 5px 27px 22px #353745, inset 1px 0px 0px 0px #353745;
+}
+
 
 
